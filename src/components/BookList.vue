@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <h1>{{ msg }}</h1>
+    <h1>{{ title }}</h1>
   </div>
 
 </template>
@@ -11,7 +11,7 @@
   name: 'BookList',
   data() {
     return {
-      msg: 'All Books',
+      title: 'All Books',
     };
   },
 };
