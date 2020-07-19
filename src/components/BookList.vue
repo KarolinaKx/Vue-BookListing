@@ -8,7 +8,7 @@
     </ul>
 
     <book-form @addBook='appendBook'></book-form>
-    
+
   </div>
 
 </template>
@@ -33,8 +33,8 @@
     };
   },
   methods: {
-    appendBook(bookTitle, bookAuhor) {
-      this.books.push({ title: bookTitle, author: bookAuhor})
+    appendBook(bookTitle, bookAuthor) {
+      this.books.push({ title: bookTitle, author: bookAuthor})
     }
   }
 };
