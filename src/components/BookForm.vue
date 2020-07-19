@@ -12,7 +12,7 @@ export default {
 
     data() {
         return {
-bookTitile: '',
+bookTitle: '',
 bookAuthor: '',
         } 
 
