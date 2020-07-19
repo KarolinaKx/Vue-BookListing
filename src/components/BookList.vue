@@ -1,11 +1,9 @@
 <template>
 
   <div>
-    <h1>{{ title }}</h1>
+    <h1>{{title}}</h1>
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>{{book.title}}:{{book.author}}</li>
     </ul>
   </div>
 
@@ -17,6 +15,11 @@
   data() {
     return {
       title: 'All Books',
+      books: [
+        {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+        {title: 'American Gods', author: 'Neil Gaiman'},
+        {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
+      ] 
     };
   },
 };
